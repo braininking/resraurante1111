@@ -1,0 +1,1502 @@
+{
+  "stores": [
+    {
+      "id": "store-1",
+      "name": "Burger & Co. Artesanal",
+      "slug": "burger-co",
+      "segment": "hamburgueria",
+      "tagline": "Smash burgers, brioche artesanal e batatas rústicas",
+      "logo": "https://images.unsplash.com/photo-1550547660-d9450f859349?w=300&auto=format&fit=crop&q=80",
+      "cover": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=1200&auto=format&fit=crop&q=80",
+      "primaryColor": "#EA580C",
+      "phone": "(11) 98765-4321",
+      "whatsapp": "5511987654321",
+      "address": "Rua Augusta, 1420 - Consolação, São Paulo - SP",
+      "minOrderValue": 25,
+      "deliveryZones": [
+        {
+          "id": "z1",
+          "name": "Centro / Consolação",
+          "fee": 5,
+          "estimatedMinutes": 30
+        },
+        {
+          "id": "z2",
+          "name": "Bela Vista / Jardins",
+          "fee": 8,
+          "estimatedMinutes": 40
+        },
+        {
+          "id": "z3",
+          "name": "Pinheiros / Vila Madalena",
+          "fee": 12,
+          "estimatedMinutes": 50
+        },
+        {
+          "id": "z4",
+          "name": "Outros bairros (até 7km)",
+          "fee": 15,
+          "estimatedMinutes": 60
+        }
+      ],
+      "openingHours": [
+        {
+          "dayOfWeek": 0,
+          "open": "18:00",
+          "close": "23:59",
+          "isOpen": true
+        },
+        {
+          "dayOfWeek": 1,
+          "open": "18:00",
+          "close": "23:30",
+          "isOpen": true
+        },
+        {
+          "dayOfWeek": 2,
+          "open": "18:00",
+          "close": "23:30",
+          "isOpen": true
+        },
+        {
+          "dayOfWeek": 3,
+          "open": "18:00",
+          "close": "23:30",
+          "isOpen": true
+        },
+        {
+          "dayOfWeek": 4,
+          "open": "18:00",
+          "close": "23:30",
+          "isOpen": true
+        },
+        {
+          "dayOfWeek": 5,
+          "open": "18:00",
+          "close": "01:00",
+          "isOpen": true
+        },
+        {
+          "dayOfWeek": 6,
+          "open": "18:00",
+          "close": "01:00",
+          "isOpen": true
+        }
+      ],
+      "paymentMethods": {
+        "pix": true,
+        "cash": true,
+        "cardDelivery": true,
+        "cardOnline": true
+      },
+      "pixConfig": {
+        "key": "8e7fc37c-634d-4408-9e81-3fbea689d8b2",
+        "keyType": "random",
+        "beneficiaryName": "Itaú Unibanco / CardapioPro",
+        "city": "SAO PAULO"
+      },
+      "printSettings": {
+        "autoPrint": true,
+        "paperWidth": 80,
+        "copies": 1,
+        "soundAlert": true
+      },
+      "whatsappBot": {
+        "enabled": true,
+        "greeting": "Olá! Bem-vindo à Burger & Co. Artesanal! 🍔 Como podemos ajudar hoje?",
+        "menuMessage": "Acesse nosso cardápio digital interativo e faça seu pedido sem filas:",
+        "statusChangeNotify": true,
+        "pixInstructions": "Você pode transferir de qualquer banco para minha chave Pix Itaú: 8e7fc37c-634d-4408-9e81-3fbea689d8b2"
+      },
+      "plan": "pro",
+      "status": "active",
+      "createdAt": "2026-01-10T10:00:00.000Z",
+      "password": "123456",
+      "subscriptionExpiresAt": "2026-11-13T23:01:54.251Z",
+      "subscriptionCycle": "monthly",
+      "subscriptionAutoRenew": true,
+      "subscriptionLastRenewedAt": "2026-10-14T23:01:54.252Z"
+    },
+    {
+      "id": "store-2",
+      "name": "Bella Napoli Pizzas & Calzones",
+      "slug": "bella-napoli",
+      "segment": "pizzaria",
+      "tagline": "Massa de fermentação natural 48h e forno a lenha",
+      "logo": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&auto=format&fit=crop&q=80",
+      "cover": "https://images.unsplash.com/photo-1579684947550-22e945225d9a?w=1200&auto=format&fit=crop&q=80",
+      "primaryColor": "#DC2626",
+      "phone": "(11) 97654-3210",
+      "whatsapp": "5511976543210",
+      "address": "Alameda dos Anapurus, 890 - Moema, São Paulo - SP",
+      "minOrderValue": 35,
+      "deliveryZones": [
+        {
+          "id": "nz1",
+          "name": "Moema / Indianópolis",
+          "fee": 6,
+          "estimatedMinutes": 35
+        },
+        {
+          "id": "nz2",
+          "name": "Vila Nova Conceição / Itaim",
+          "fee": 10,
+          "estimatedMinutes": 45
+        },
+        {
+          "id": "nz3",
+          "name": "Campo Belo / Brooklin",
+          "fee": 12,
+          "estimatedMinutes": 50
+        }
+      ],
+      "openingHours": [
+        {
+          "dayOfWeek": 0,
+          "open": "18:30",
+          "close": "23:30",
+          "isOpen": true
+        },
+        {
+          "dayOfWeek": 1,
+          "open": "18:30",
+          "close": "23:00",
+          "isOpen": false
+        },
+        {
+          "dayOfWeek": 2,
+          "open": "18:30",
+          "close": "23:30",
+          "isOpen": true
+        },
+        {
+          "dayOfWeek": 3,
+          "open": "18:30",
+          "close": "23:30",
+          "isOpen": true
+        },
+        {
+          "dayOfWeek": 4,
+          "open": "18:30",
+          "close": "23:30",
+          "isOpen": true
+        },
+        {
+          "dayOfWeek": 5,
+          "open": "18:30",
+          "close": "00:30",
+          "isOpen": true
+        },
+        {
+          "dayOfWeek": 6,
+          "open": "18:30",
+          "close": "00:30",
+          "isOpen": true
+        }
+      ],
+      "paymentMethods": {
+        "pix": true,
+        "cash": true,
+        "cardDelivery": true,
+        "cardOnline": true
+      },
+      "pixConfig": {
+        "key": "8e7fc37c-634d-4408-9e81-3fbea689d8b2",
+        "keyType": "random",
+        "beneficiaryName": "Itaú Unibanco / CardapioPro",
+        "city": "SAO PAULO"
+      },
+      "printSettings": {
+        "autoPrint": true,
+        "paperWidth": 80,
+        "copies": 2,
+        "soundAlert": true
+      },
+      "whatsappBot": {
+        "enabled": true,
+        "greeting": "Buonasera! Bem-vindo à Bella Napoli Pizzaria 🍕",
+        "menuMessage": "Cardápio de pizzas napolitanas com opção meio a meio:",
+        "statusChangeNotify": true,
+        "pixInstructions": "Você pode transferir de qualquer banco para minha chave Pix Itaú: 8e7fc37c-634d-4408-9e81-3fbea689d8b2"
+      },
+      "plan": "pro",
+      "status": "active",
+      "createdAt": "2026-02-01T12:00:00.000Z",
+      "password": "123456",
+      "subscriptionExpiresAt": "2026-11-13T23:01:54.252Z",
+      "subscriptionCycle": "monthly",
+      "subscriptionAutoRenew": true,
+      "subscriptionLastRenewedAt": "2026-10-14T23:01:54.252Z"
+    },
+    {
+      "id": "store-3",
+      "name": "Açaí & Gelatos Tropicais",
+      "slug": "acai-tropical",
+      "segment": "acaiteria",
+      "tagline": "Açaí 100% puro do Pará, cremes especiais e frutas frescas",
+      "logo": "https://images.unsplash.com/photo-1590080875515-8a3a8dc5735e?w=300&auto=format&fit=crop&q=80",
+      "cover": "https://images.unsplash.com/photo-1505252585461-04db1eb84625?w=1200&auto=format&fit=crop&q=80",
+      "primaryColor": "#7C3AED",
+      "phone": "(11) 96543-2109",
+      "whatsapp": "5511965432109",
+      "address": "Rua Fradique Coutinho, 510 - Pinheiros, São Paulo - SP",
+      "minOrderValue": 20,
+      "deliveryZones": [
+        {
+          "id": "az1",
+          "name": "Pinheiros / Vila Madalena",
+          "fee": 5,
+          "estimatedMinutes": 25
+        },
+        {
+          "id": "az2",
+          "name": "Alto de Pinheiros / Perdizes",
+          "fee": 8,
+          "estimatedMinutes": 35
+        }
+      ],
+      "openingHours": [
+        {
+          "dayOfWeek": 0,
+          "open": "12:00",
+          "close": "22:00",
+          "isOpen": true
+        },
+        {
+          "dayOfWeek": 1,
+          "open": "12:00",
+          "close": "22:00",
+          "isOpen": true
+        },
+        {
+          "dayOfWeek": 2,
+          "open": "12:00",
+          "close": "22:00",
+          "isOpen": true
+        },
+        {
+          "dayOfWeek": 3,
+          "open": "12:00",
+          "close": "22:00",
+          "isOpen": true
+        },
+        {
+          "dayOfWeek": 4,
+          "open": "12:00",
+          "close": "22:00",
+          "isOpen": true
+        },
+        {
+          "dayOfWeek": 5,
+          "open": "12:00",
+          "close": "23:00",
+          "isOpen": true
+        },
+        {
+          "dayOfWeek": 6,
+          "open": "12:00",
+          "close": "23:00",
+          "isOpen": true
+        }
+      ],
+      "paymentMethods": {
+        "pix": true,
+        "cash": true,
+        "cardDelivery": true,
+        "cardOnline": true
+      },
+      "pixConfig": {
+        "key": "8e7fc37c-634d-4408-9e81-3fbea689d8b2",
+        "keyType": "random",
+        "beneficiaryName": "Itaú Unibanco / CardapioPro",
+        "city": "SAO PAULO"
+      },
+      "printSettings": {
+        "autoPrint": false,
+        "paperWidth": 58,
+        "copies": 1,
+        "soundAlert": true
+      },
+      "whatsappBot": {
+        "enabled": true,
+        "greeting": "Opa! Que tal um açaí geladinho hoje? 🍧",
+        "menuMessage": "Monte seu açaí no capricho com complementos ilimitados:",
+        "statusChangeNotify": true,
+        "pixInstructions": "Você pode transferir de qualquer banco para minha chave Pix Itaú: 8e7fc37c-634d-4408-9e81-3fbea689d8b2"
+      },
+      "plan": "essencial",
+      "status": "active",
+      "createdAt": "2026-02-15T09:00:00.000Z",
+      "password": "123456",
+      "subscriptionExpiresAt": "2026-11-13T23:01:54.252Z",
+      "subscriptionCycle": "monthly",
+      "subscriptionAutoRenew": true,
+      "subscriptionLastRenewedAt": "2026-10-14T23:01:54.252Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat-1",
+      "storeId": "store-1",
+      "name": "Burgers Especiais",
+      "order": 1
+    },
+    {
+      "id": "cat-2",
+      "storeId": "store-1",
+      "name": "Smash Burgers",
+      "order": 2
+    },
+    {
+      "id": "cat-3",
+      "storeId": "store-1",
+      "name": "Acompanhamentos & Fritas",
+      "order": 3
+    },
+    {
+      "id": "cat-4",
+      "storeId": "store-1",
+      "name": "Bebidas & Shakes",
+      "order": 4
+    },
+    {
+      "id": "cat-5",
+      "storeId": "store-1",
+      "name": "Sobremesas",
+      "order": 5
+    },
+    {
+      "id": "cat-6",
+      "storeId": "store-2",
+      "name": "Pizzas Tradicionais",
+      "order": 1
+    },
+    {
+      "id": "cat-7",
+      "storeId": "store-2",
+      "name": "Pizzas Especiais",
+      "order": 2
+    },
+    {
+      "id": "cat-8",
+      "storeId": "store-2",
+      "name": "Calzones & Entradas",
+      "order": 3
+    },
+    {
+      "id": "cat-9",
+      "storeId": "store-2",
+      "name": "Vinhos & Cervejas",
+      "order": 4
+    },
+    {
+      "id": "cat-10",
+      "storeId": "store-3",
+      "name": "Tigelas de Açaí",
+      "order": 1
+    },
+    {
+      "id": "cat-11",
+      "storeId": "store-3",
+      "name": "Copos Turbo",
+      "order": 2
+    },
+    {
+      "id": "cat-12",
+      "storeId": "store-3",
+      "name": "Sucos Naturais",
+      "order": 3
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-1",
+      "storeId": "store-1",
+      "categoryId": "cat-1",
+      "name": "Bacon Supreme Artesanal",
+      "description": "Pão brioche tostado na manteiga, 160g de blend angus suculento, queijo cheddar cremoso derretido, tiras de bacon crocante e maionese defumada da casa.",
+      "price": 36.9,
+      "promotionalPrice": 33.9,
+      "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600&auto=format&fit=crop&q=80",
+      "available": true,
+      "removableIngredients": [
+        "Sem cebola",
+        "Sem maionese",
+        "Sem bacon",
+        "Sem picles"
+      ],
+      "trackStock": true,
+      "currentStock": 45,
+      "minStock": 10,
+      "recipe": [
+        {
+          "ingredientId": "ing-1",
+          "quantity": 1
+        },
+        {
+          "ingredientId": "ing-2",
+          "quantity": 1
+        },
+        {
+          "ingredientId": "ing-3",
+          "quantity": 40
+        },
+        {
+          "ingredientId": "ing-4",
+          "quantity": 50
+        },
+        {
+          "ingredientId": "ing-5",
+          "quantity": 30
+        }
+      ],
+      "optionGroups": [
+        {
+          "id": "og-doneness",
+          "name": "Ponto da Carne",
+          "description": "Como prefere seu blend bovino?",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "items": [
+            {
+              "id": "opt-d1",
+              "name": "Ao ponto pra mal (vermelhinho)",
+              "price": 0
+            },
+            {
+              "id": "opt-d2",
+              "name": "Ao ponto (rosado e suculento)",
+              "price": 0
+            },
+            {
+              "id": "opt-d3",
+              "name": "Bem passado",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "id": "og-cheese",
+          "name": "Tipo de Queijo",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "items": [
+            {
+              "id": "opt-c1",
+              "name": "Cheddar Inglês Melt",
+              "price": 0
+            },
+            {
+              "id": "opt-c2",
+              "name": "Queijo Prato Fundido",
+              "price": 0
+            },
+            {
+              "id": "opt-c3",
+              "name": "Gorgonzola Cremoso",
+              "price": 3.5
+            }
+          ]
+        },
+        {
+          "id": "og-addons",
+          "name": "Turbine seu Burger (Adicionais)",
+          "description": "Escolha até 4 adicionais extras",
+          "min": 0,
+          "max": 4,
+          "required": false,
+          "items": [
+            {
+              "id": "opt-a1",
+              "name": "Bacon Duplo Extra (+40g)",
+              "price": 5.9
+            },
+            {
+              "id": "opt-a2",
+              "name": "Queijo Cheddar Extra",
+              "price": 4.5
+            },
+            {
+              "id": "opt-a3",
+              "name": "Hambúrguer Extra (160g)",
+              "price": 12
+            },
+            {
+              "id": "opt-a4",
+              "name": "Cebola Caramelizada",
+              "price": 3.5
+            },
+            {
+              "id": "opt-a5",
+              "name": "Ovo Frito na Manteiga",
+              "price": 3
+            }
+          ]
+        },
+        {
+          "id": "og-combo",
+          "name": "Transformar em Combo?",
+          "min": 0,
+          "max": 1,
+          "required": false,
+          "items": [
+            {
+              "id": "opt-combo1",
+              "name": "Combo + Fritas P + Coca-Cola Lata 350ml",
+              "price": 14.9
+            },
+            {
+              "id": "opt-combo2",
+              "name": "Combo + Batata Rústica + Suco Natural 400ml",
+              "price": 16.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prod-2",
+      "storeId": "store-1",
+      "categoryId": "cat-2",
+      "name": "Duplo Smash Cheese Melt",
+      "description": "2 carnes prensadas ultra-crocantes com crostinha (90g cada), 4 fatias de cheddar inglês derretido, cebola chapeada e molho especial.",
+      "price": 31.9,
+      "image": "https://images.unsplash.com/photo-1586190848861-99aa4a171e90?w=600&auto=format&fit=crop&q=80",
+      "available": true,
+      "removableIngredients": [
+        "Sem cebola chapeada",
+        "Sem molho especial",
+        "Sem picles"
+      ],
+      "optionGroups": [
+        {
+          "id": "og-smash-addons",
+          "name": "Adicionais",
+          "min": 0,
+          "max": 3,
+          "required": false,
+          "items": [
+            {
+              "id": "opt-sa1",
+              "name": "Farofa de Bacon Crocante",
+              "price": 4
+            },
+            {
+              "id": "opt-sa2",
+              "name": "Maionese Trufada da Casa",
+              "price": 4.5
+            },
+            {
+              "id": "opt-sa3",
+              "name": "Smash Extra (+90g)",
+              "price": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prod-3",
+      "storeId": "store-1",
+      "categoryId": "cat-3",
+      "name": "Batata Rústica com Alecrim e Páprica",
+      "description": "Porção individual de batatas rústicas com casca, fritas na hora, temperadas com sal marinho, alecrim fresco e páprica defumada. Acompanha maionese da casa.",
+      "price": 18.5,
+      "image": "https://images.unsplash.com/photo-1576107232684-1279f3908594?w=600&auto=format&fit=crop&q=80",
+      "available": true,
+      "optionGroups": [
+        {
+          "id": "og-molho",
+          "name": "Molho Extra",
+          "min": 0,
+          "max": 2,
+          "required": false,
+          "items": [
+            {
+              "id": "opt-m1",
+              "name": "Maionese de Alho Confitado (50ml)",
+              "price": 3.5
+            },
+            {
+              "id": "opt-m2",
+              "name": "Molho Barbecue Defumado (50ml)",
+              "price": 3
+            },
+            {
+              "id": "opt-m3",
+              "name": "Ketchup Rústico de Goiabada (50ml)",
+              "price": 3.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prod-4",
+      "storeId": "store-1",
+      "categoryId": "cat-4",
+      "name": "Milkshake de Nutella com Ninho (400ml)",
+      "description": "Sorvete artesanal batido com leite Ninho em pó, borda recheada de Nutella original e chantilly fresco.",
+      "price": 22.9,
+      "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=600&auto=format&fit=crop&q=80",
+      "available": true,
+      "optionGroups": []
+    },
+    {
+      "id": "prod-5",
+      "storeId": "store-1",
+      "categoryId": "cat-4",
+      "name": "Coca-Cola Original 350ml Lata",
+      "description": "Refrigerante gelado lata 350ml.",
+      "price": 6.5,
+      "image": "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?w=600&auto=format&fit=crop&q=80",
+      "available": true,
+      "optionGroups": []
+    },
+    {
+      "id": "prod-p1",
+      "storeId": "store-2",
+      "categoryId": "cat-6",
+      "name": "Pizza Artesanal Napolitana (Monte a sua)",
+      "description": "Massa leve de fermentação lenta 48h, molho de tomate pelado San Marzano e azeite extravirgem. Escolha o tamanho e até 2 sabores meio a meio!",
+      "price": 64.9,
+      "image": "https://images.unsplash.com/photo-1534308983496-4fabb1a015ee?w=600&auto=format&fit=crop&q=80",
+      "available": true,
+      "isPizza": true,
+      "pizzaSizes": [
+        {
+          "name": "Média (6 Fatias)",
+          "slices": 6,
+          "maxFlavors": 2,
+          "basePrice": 58
+        },
+        {
+          "name": "Grande (8 Fatias)",
+          "slices": 8,
+          "maxFlavors": 2,
+          "basePrice": 68
+        },
+        {
+          "name": "Família (12 Fatias)",
+          "slices": 12,
+          "maxFlavors": 3,
+          "basePrice": 84
+        }
+      ],
+      "optionGroups": [
+        {
+          "id": "og-pizza-size",
+          "name": "Tamanho da Pizza",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "items": [
+            {
+              "id": "opt-ps-med",
+              "name": "Média (6 Fatias) - 30cm",
+              "price": 58
+            },
+            {
+              "id": "opt-ps-grd",
+              "name": "Grande (8 Fatias) - 35cm",
+              "price": 68
+            },
+            {
+              "id": "opt-ps-fam",
+              "name": "Família (12 Fatias) - 40cm",
+              "price": 84
+            }
+          ]
+        },
+        {
+          "id": "og-pizza-crust",
+          "name": "Borda Recheada Opcional",
+          "min": 0,
+          "max": 1,
+          "required": false,
+          "items": [
+            {
+              "id": "opt-borda-trad",
+              "name": "Borda Tradicional Crocante",
+              "price": 0
+            },
+            {
+              "id": "opt-borda-cat",
+              "name": "Borda com Catupiry Original",
+              "price": 9.9
+            },
+            {
+              "id": "opt-borda-ched",
+              "name": "Borda com Cheddar Cremoso",
+              "price": 9.9
+            },
+            {
+              "id": "opt-borda-choc",
+              "name": "Borda Vulcão de Chocolate ao Leite",
+              "price": 12.9
+            }
+          ]
+        },
+        {
+          "id": "og-pizza-flavor1",
+          "name": "1º Sabor (ou sabor inteiro)",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "items": [
+            {
+              "id": "opt-f-margh",
+              "name": "Margherita Especial (Mozzarella de búfala, manjericão fresco e azeite)",
+              "price": 0
+            },
+            {
+              "id": "opt-f-calab",
+              "name": "Calabresa Artesanal com Cebola Roxa e Azeitonas pretas",
+              "price": 0
+            },
+            {
+              "id": "opt-f-4queij",
+              "name": "Quatro Queijos (Mozzarella, Gorgonzola, Parmesão e Catupiry)",
+              "price": 4
+            },
+            {
+              "id": "opt-f-frango",
+              "name": "Frango Desfiado com Catupiry e Milho Verde",
+              "price": 2
+            },
+            {
+              "id": "opt-f-parma",
+              "name": "Parma & Rúcula (Presunto cru, rúcula fresca e lascas de parmesão)",
+              "price": 8
+            }
+          ]
+        },
+        {
+          "id": "og-pizza-flavor2",
+          "name": "2º Sabor (Opcional - Meio a Meio)",
+          "min": 0,
+          "max": 1,
+          "required": false,
+          "items": [
+            {
+              "id": "opt-f2-margh",
+              "name": "1/2 Margherita Especial",
+              "price": 0
+            },
+            {
+              "id": "opt-f2-calab",
+              "name": "1/2 Calabresa Artesanal",
+              "price": 0
+            },
+            {
+              "id": "opt-f2-4queij",
+              "name": "1/2 Quatro Queijos",
+              "price": 2
+            },
+            {
+              "id": "opt-f2-frango",
+              "name": "1/2 Frango com Catupiry",
+              "price": 1
+            },
+            {
+              "id": "opt-f2-parma",
+              "name": "1/2 Parma & Rúcula",
+              "price": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prod-a1",
+      "storeId": "store-3",
+      "categoryId": "cat-10",
+      "name": "Tigela Açaí Especial 500ml",
+      "description": "Açaí orgânico de consistência perfeita batido com xarope de guaraná natural. Escolha frutas e complementos!",
+      "price": 24,
+      "image": "https://images.unsplash.com/photo-1590080875515-8a3a8dc5735e?w=600&auto=format&fit=crop&q=80",
+      "available": true,
+      "optionGroups": [
+        {
+          "id": "og-acai-fruit",
+          "name": "Fruta Fresca (1 inclusa)",
+          "min": 1,
+          "max": 2,
+          "required": true,
+          "items": [
+            {
+              "id": "opt-af-ban",
+              "name": "Banana Fatiada",
+              "price": 0
+            },
+            {
+              "id": "opt-af-mor",
+              "name": "Morango Fresco",
+              "price": 2.5
+            },
+            {
+              "id": "opt-af-mkiw",
+              "name": "Kiwi em Cubos",
+              "price": 2.5
+            }
+          ]
+        },
+        {
+          "id": "og-acai-toppings",
+          "name": "Complementos Grátis (Escolha até 3)",
+          "min": 0,
+          "max": 3,
+          "required": false,
+          "items": [
+            {
+              "id": "opt-at-gran",
+              "name": "Granola Artesanal",
+              "price": 0
+            },
+            {
+              "id": "opt-at-ninho",
+              "name": "Leite Ninho em Pó",
+              "price": 0
+            },
+            {
+              "id": "opt-at-cond",
+              "name": "Leite Condensado",
+              "price": 0
+            },
+            {
+              "id": "opt-at-pacoca",
+              "name": "Paçoca de Amendoim",
+              "price": 0
+            },
+            {
+              "id": "opt-at-coco",
+              "name": "Coco Ralado",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "id": "og-acai-premiums",
+          "name": "Cremes & Coberturas Premium",
+          "min": 0,
+          "max": 3,
+          "required": false,
+          "items": [
+            {
+              "id": "opt-ap-nutella",
+              "name": "Nutella Pura (50g)",
+              "price": 5
+            },
+            {
+              "id": "opt-ap-pistache",
+              "name": "Creme de Pistache Italiano",
+              "price": 7
+            },
+            {
+              "id": "opt-ap-ninho-creme",
+              "name": "Brigadeiro Branco de Ninho",
+              "price": 4
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "ingredients": [
+    {
+      "id": "ing-1",
+      "storeId": "store-1",
+      "name": "Pão de Brioche Selado",
+      "unit": "un",
+      "currentStock": 84,
+      "minStock": 30,
+      "costPrice": 1.8,
+      "supplier": "Padaria Central"
+    },
+    {
+      "id": "ing-2",
+      "storeId": "store-1",
+      "name": "Blend Bovino Angus (160g)",
+      "unit": "un",
+      "currentStock": 61,
+      "minStock": 25,
+      "costPrice": 6.5,
+      "supplier": "Frigorífico Boi Nobre"
+    },
+    {
+      "id": "ing-3",
+      "storeId": "store-1",
+      "name": "Queijo Cheddar Inglês Fatiado",
+      "unit": "g",
+      "currentStock": 3460,
+      "minStock": 1000,
+      "costPrice": 0.045,
+      "supplier": "Laticínios Sul"
+    },
+    {
+      "id": "ing-4",
+      "storeId": "store-1",
+      "name": "Bacon Defumado Artesanal",
+      "unit": "g",
+      "currentStock": 4150,
+      "minStock": 1200,
+      "costPrice": 0.055,
+      "supplier": "Charcutaria Real"
+    },
+    {
+      "id": "ing-5",
+      "storeId": "store-1",
+      "name": "Maionese da Casa de Ervas",
+      "unit": "ml",
+      "currentStock": 2470,
+      "minStock": 800,
+      "costPrice": 0.02,
+      "supplier": "Produção Própria"
+    },
+    {
+      "id": "ing-6",
+      "storeId": "store-1",
+      "name": "Batata Belga Palito Congelada",
+      "unit": "kg",
+      "currentStock": 28,
+      "minStock": 10,
+      "costPrice": 14,
+      "supplier": "Distribuidora Food"
+    }
+  ],
+  "stockMovements": [
+    {
+      "id": "mov-1791934244592-yiwd",
+      "storeId": "store-1",
+      "ingredientId": "ing-5",
+      "ingredientName": "Maionese da Casa de Ervas",
+      "type": "saida_venda",
+      "quantity": 30,
+      "unit": "ml",
+      "reason": "Baixa automática pelo pedido #1004",
+      "orderId": "ord-1791934244590",
+      "timestamp": "2026-10-13T23:30:44.592Z"
+    },
+    {
+      "id": "mov-1791934244592-33v4",
+      "storeId": "store-1",
+      "ingredientId": "ing-4",
+      "ingredientName": "Bacon Defumado Artesanal",
+      "type": "saida_venda",
+      "quantity": 50,
+      "unit": "g",
+      "reason": "Baixa automática pelo pedido #1004",
+      "orderId": "ord-1791934244590",
+      "timestamp": "2026-10-13T23:30:44.592Z"
+    },
+    {
+      "id": "mov-1791934244591-ztcv",
+      "storeId": "store-1",
+      "ingredientId": "ing-3",
+      "ingredientName": "Queijo Cheddar Inglês Fatiado",
+      "type": "saida_venda",
+      "quantity": 40,
+      "unit": "g",
+      "reason": "Baixa automática pelo pedido #1004",
+      "orderId": "ord-1791934244590",
+      "timestamp": "2026-10-13T23:30:44.591Z"
+    },
+    {
+      "id": "mov-1791934244591-uzj8",
+      "storeId": "store-1",
+      "ingredientId": "ing-2",
+      "ingredientName": "Blend Bovino Angus (160g)",
+      "type": "saida_venda",
+      "quantity": 1,
+      "unit": "un",
+      "reason": "Baixa automática pelo pedido #1004",
+      "orderId": "ord-1791934244590",
+      "timestamp": "2026-10-13T23:30:44.591Z"
+    },
+    {
+      "id": "mov-1791934244590-y1jp",
+      "storeId": "store-1",
+      "ingredientId": "ing-1",
+      "ingredientName": "Pão de Brioche Selado",
+      "type": "saida_venda",
+      "quantity": 1,
+      "unit": "un",
+      "reason": "Baixa automática pelo pedido #1004",
+      "orderId": "ord-1791934244590",
+      "timestamp": "2026-10-13T23:30:44.590Z"
+    },
+    {
+      "id": "mov-1",
+      "storeId": "store-1",
+      "ingredientId": "ing-2",
+      "ingredientName": "Blend Bovino Angus (160g)",
+      "type": "entrada",
+      "quantity": 80,
+      "unit": "un",
+      "reason": "Compra semanal Nota Fiscal #4982",
+      "timestamp": "2026-10-12T09:30:00.000Z"
+    },
+    {
+      "id": "mov-2",
+      "storeId": "store-1",
+      "ingredientId": "ing-1",
+      "ingredientName": "Pão de Brioche Selado",
+      "type": "entrada",
+      "quantity": 100,
+      "unit": "un",
+      "reason": "Entrega fornecedor Padaria Central",
+      "timestamp": "2026-10-12T10:15:00.000Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord-1791934244590",
+      "displayId": "#1004",
+      "storeId": "store-1",
+      "channel": "cardapio_digital",
+      "type": "delivery",
+      "status": "em_preparo",
+      "customer": {
+        "name": "wabada",
+        "phone": "sdsfss",
+        "address": {
+          "street": "ssf",
+          "number": "fsfsf",
+          "neighborhood": "Centro / Consolação",
+          "complement": "sfs",
+          "reference": "sff"
+        }
+      },
+      "items": [
+        {
+          "id": "cart-1791934132402-qg3i",
+          "productId": "prod-1",
+          "name": "Bacon Supreme Artesanal",
+          "quantity": 1,
+          "unitPrice": 33.9,
+          "selectedOptions": [
+            {
+              "groupId": "og-doneness",
+              "groupName": "Ponto da Carne",
+              "itemId": "opt-d1",
+              "itemName": "Ao ponto pra mal (vermelhinho)",
+              "price": 0,
+              "quantity": 1
+            },
+            {
+              "groupId": "og-cheese",
+              "groupName": "Tipo de Queijo",
+              "itemId": "opt-c1",
+              "itemName": "Cheddar Inglês Melt",
+              "price": 0,
+              "quantity": 1
+            },
+            {
+              "groupId": "og-addons",
+              "groupName": "Turbine seu Burger (Adicionais)",
+              "itemId": "opt-a1",
+              "itemName": "Bacon Duplo Extra (+40g)",
+              "price": 5.9,
+              "quantity": 1
+            }
+          ],
+          "removedIngredients": [
+            "Sem cebola"
+          ],
+          "observation": "",
+          "subtotal": 39.8
+        },
+        {
+          "id": "cart-1791934145930-zu70",
+          "productId": "prod-5",
+          "name": "Coca-Cola Original 350ml Lata",
+          "quantity": 1,
+          "unitPrice": 6.5,
+          "selectedOptions": [],
+          "removedIngredients": [],
+          "observation": "",
+          "subtotal": 6.5
+        }
+      ],
+      "subtotal": 46.3,
+      "deliveryFee": 5,
+      "discount": 0,
+      "total": 51.3,
+      "payment": {
+        "method": "pix",
+        "status": "pending",
+        "pixPayload": "00020126410014br.gov.bcb.pix0119pix@burgerco.com.br520400005303986540551.305802BR5925BURGER & CO DELIVERY LTDA6009SAO PAULO62170513179193424459063043845"
+      },
+      "statusHistory": [
+        {
+          "status": "aguardando_confirmacao",
+          "timestamp": "2026-10-13T23:30:44.590Z",
+          "note": "Pedido recebido via Cardápio Digital"
+        },
+        {
+          "status": "em_preparo",
+          "timestamp": "2026-10-13T23:34:26.200Z",
+          "note": "Pedido aceito e enviado para cozinha"
+        }
+      ],
+      "printed": false,
+      "createdAt": "2026-10-13T23:30:44.590Z",
+      "updatedAt": "2026-10-13T23:34:26.200Z",
+      "idempotencyKey": "idemp-1791934165275-33bw7"
+    },
+    {
+      "id": "ord-1001",
+      "displayId": "#1001",
+      "storeId": "store-1",
+      "channel": "cardapio_digital",
+      "type": "delivery",
+      "status": "em_preparo",
+      "customer": {
+        "name": "Matheus Oliveira",
+        "phone": "(11) 99887-1122",
+        "address": {
+          "street": "Alameda Santos",
+          "number": "980",
+          "neighborhood": "Bela Vista / Jardins",
+          "complement": "Apto 42B",
+          "reference": "Próximo ao Metrô Brigadeiro"
+        }
+      },
+      "items": [
+        {
+          "id": "item-1",
+          "productId": "prod-1",
+          "name": "Bacon Supreme Artesanal",
+          "quantity": 2,
+          "unitPrice": 33.9,
+          "selectedOptions": [
+            {
+              "groupId": "og-doneness",
+              "groupName": "Ponto da Carne",
+              "itemId": "opt-d2",
+              "itemName": "Ao ponto (rosado e suculento)",
+              "price": 0,
+              "quantity": 1
+            },
+            {
+              "groupId": "og-cheese",
+              "groupName": "Tipo de Queijo",
+              "itemId": "opt-c1",
+              "itemName": "Cheddar Inglês Melt",
+              "price": 0,
+              "quantity": 1
+            },
+            {
+              "groupId": "og-addons",
+              "groupName": "Turbine seu Burger",
+              "itemId": "opt-a1",
+              "itemName": "Bacon Duplo Extra (+40g)",
+              "price": 5.9,
+              "quantity": 1
+            }
+          ],
+          "removedIngredients": [
+            "Sem cebola"
+          ],
+          "observation": "Caprichar no molho por favor!",
+          "subtotal": 79.6
+        },
+        {
+          "id": "item-2",
+          "productId": "prod-3",
+          "name": "Batata Rústica com Alecrim e Páprica",
+          "quantity": 1,
+          "unitPrice": 18.5,
+          "selectedOptions": [
+            {
+              "groupId": "og-molho",
+              "groupName": "Molho Extra",
+              "itemId": "opt-m1",
+              "itemName": "Maionese de Alho Confitado (50ml)",
+              "price": 3.5,
+              "quantity": 1
+            }
+          ],
+          "subtotal": 22
+        }
+      ],
+      "subtotal": 101.6,
+      "deliveryFee": 8,
+      "discount": 10,
+      "couponCode": "BEMVINDO",
+      "total": 99.6,
+      "payment": {
+        "method": "pix",
+        "status": "paid",
+        "pixPayload": "00020126580014br.gov.bcb.pix0136pix@burgerco.com.br520400005303986540599.605802BR5925Burger & Co Delivery Ltda6009SAO PAULO62070503***6304E8A2"
+      },
+      "statusHistory": [
+        {
+          "status": "aguardando_confirmacao",
+          "timestamp": "2026-10-13T19:40:00.000Z",
+          "note": "Pedido recebido via Cardápio Digital"
+        },
+        {
+          "status": "confirmado",
+          "timestamp": "2026-10-13T19:42:00.000Z",
+          "note": "Pagamento Pix confirmado automaticamente"
+        },
+        {
+          "status": "em_preparo",
+          "timestamp": "2026-10-13T19:45:00.000Z",
+          "note": "Encaminhado para a chapa"
+        }
+      ],
+      "printed": true,
+      "createdAt": "2026-10-13T19:40:00.000Z",
+      "updatedAt": "2026-10-13T19:45:00.000Z",
+      "idempotencyKey": "idemp-seed-1001"
+    },
+    {
+      "id": "ord-1002",
+      "displayId": "#1002",
+      "storeId": "store-1",
+      "channel": "whatsapp",
+      "type": "delivery",
+      "status": "aguardando_confirmacao",
+      "customer": {
+        "name": "Camila Rodrigues",
+        "phone": "(11) 98123-4567",
+        "address": {
+          "street": "Rua Bela Cintra",
+          "number": "1250",
+          "neighborhood": "Centro / Consolação",
+          "complement": "Bloco 1 Apto 71"
+        }
+      },
+      "items": [
+        {
+          "id": "item-3",
+          "productId": "prod-2",
+          "name": "Duplo Smash Cheese Melt",
+          "quantity": 1,
+          "unitPrice": 31.9,
+          "selectedOptions": [],
+          "observation": "Enviar sachê de maionese",
+          "subtotal": 31.9
+        },
+        {
+          "id": "item-4",
+          "productId": "prod-5",
+          "name": "Coca-Cola Original 350ml Lata",
+          "quantity": 1,
+          "unitPrice": 6.5,
+          "selectedOptions": [],
+          "subtotal": 6.5
+        }
+      ],
+      "subtotal": 38.4,
+      "deliveryFee": 5,
+      "discount": 0,
+      "total": 43.4,
+      "payment": {
+        "method": "cash",
+        "status": "pending",
+        "changeFor": 50
+      },
+      "statusHistory": [
+        {
+          "status": "aguardando_confirmacao",
+          "timestamp": "2026-10-13T19:55:00.000Z",
+          "note": "Pedido recebido via WhatsApp Bot"
+        }
+      ],
+      "printed": false,
+      "createdAt": "2026-10-13T19:55:00.000Z",
+      "updatedAt": "2026-10-13T19:55:00.000Z",
+      "idempotencyKey": "idemp-seed-1002"
+    },
+    {
+      "id": "ord-1003",
+      "displayId": "#1003",
+      "storeId": "store-1",
+      "channel": "pdv_balcao",
+      "type": "takeaway",
+      "status": "pronto",
+      "customer": {
+        "name": "Cliente Balcão - Lucas",
+        "phone": "(11) 97777-8888"
+      },
+      "items": [
+        {
+          "id": "item-5",
+          "productId": "prod-1",
+          "name": "Bacon Supreme Artesanal",
+          "quantity": 1,
+          "unitPrice": 33.9,
+          "selectedOptions": [
+            {
+              "groupId": "og-doneness",
+              "groupName": "Ponto da Carne",
+              "itemId": "opt-d3",
+              "itemName": "Bem passado",
+              "price": 0,
+              "quantity": 1
+            },
+            {
+              "groupId": "og-cheese",
+              "groupName": "Tipo de Queijo",
+              "itemId": "opt-c1",
+              "itemName": "Cheddar Inglês Melt",
+              "price": 0,
+              "quantity": 1
+            }
+          ],
+          "subtotal": 33.9
+        }
+      ],
+      "subtotal": 33.9,
+      "deliveryFee": 0,
+      "discount": 0,
+      "total": 33.9,
+      "payment": {
+        "method": "card_delivery",
+        "status": "paid"
+      },
+      "statusHistory": [
+        {
+          "status": "confirmado",
+          "timestamp": "2026-10-13T19:30:00.000Z"
+        },
+        {
+          "status": "em_preparo",
+          "timestamp": "2026-10-13T19:32:00.000Z"
+        },
+        {
+          "status": "pronto",
+          "timestamp": "2026-10-13T19:48:00.000Z"
+        }
+      ],
+      "printed": true,
+      "createdAt": "2026-10-13T19:30:00.000Z",
+      "updatedAt": "2026-10-13T19:48:00.000Z"
+    }
+  ],
+  "cashSessions": [
+    {
+      "id": "cash-1",
+      "storeId": "store-1",
+      "operatorName": "Rafael Souza (Gerente)",
+      "openedAt": "2026-10-13T16:00:00.000Z",
+      "initialAmount": 150,
+      "status": "open",
+      "entries": [
+        {
+          "id": "ce-1",
+          "type": "suprimento",
+          "amount": 150,
+          "reason": "Fundo de troco inicial da gaveta",
+          "timestamp": "2026-10-13T16:00:00.000Z"
+        },
+        {
+          "id": "ce-2",
+          "type": "venda",
+          "amount": 33.9,
+          "paymentMethod": "card_delivery",
+          "reason": "Venda balcão Pedido #1003",
+          "timestamp": "2026-10-13T19:30:00.000Z",
+          "orderId": "ord-1003"
+        }
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "id": "tbl-1",
+      "storeId": "store-1",
+      "number": 1,
+      "capacity": 2,
+      "status": "livre"
+    },
+    {
+      "id": "tbl-2",
+      "storeId": "store-1",
+      "number": 2,
+      "capacity": 4,
+      "status": "ocupada",
+      "activeOrderId": "ord-1003",
+      "openedAt": "2026-10-13T19:15:00.000Z"
+    },
+    {
+      "id": "tbl-3",
+      "storeId": "store-1",
+      "number": 3,
+      "capacity": 4,
+      "status": "livre"
+    },
+    {
+      "id": "tbl-4",
+      "storeId": "store-1",
+      "number": 4,
+      "capacity": 6,
+      "status": "aguardando_conta"
+    },
+    {
+      "id": "tbl-5",
+      "storeId": "store-1",
+      "number": 5,
+      "capacity": 2,
+      "status": "reservada"
+    },
+    {
+      "id": "tbl-6",
+      "storeId": "store-1",
+      "number": 6,
+      "capacity": 8,
+      "status": "livre"
+    }
+  ],
+  "plans": [
+    {
+      "id": "plan-essencial",
+      "name": "Plano Essencial",
+      "priceMonthly": 49.9,
+      "priceYearly": 499,
+      "maxOrdersPerMonth": 150,
+      "features": [
+        "Cardápio digital próprio e responsivo",
+        "Pedidos online e delivery",
+        "Painel de pedidos básico",
+        "Cadastro de produtos e promoções",
+        "Checkout rápido com Pix automático"
+      ]
+    },
+    {
+      "id": "plan-pro",
+      "name": "Plano Pro",
+      "priceMonthly": 129.9,
+      "priceYearly": 1299,
+      "maxOrdersPerMonth": 1500,
+      "features": [
+        "Tudo do Plano Essencial",
+        "Automação de pedidos via WhatsApp",
+        "KDS - Monitor da Cozinha em tempo real com cronômetro",
+        "Frente de Caixa (PDV Balcão completo)",
+        "Gestão de Estoque com baixa automática e fichas técnicas",
+        "Impressão térmica de comandas (58mm e 80mm)"
+      ]
+    },
+    {
+      "id": "plan-enterprise",
+      "name": "Plano Enterprise",
+      "priceMonthly": 249.9,
+      "priceYearly": 2499,
+      "maxOrdersPerMonth": 10000,
+      "features": [
+        "Tudo do Plano Pro",
+        "Múltiplas mesas do salão com QR Code individual por mesa",
+        "Relatórios financeiros avançados e fluxo de caixa",
+        "Controle de comandas por garçom",
+        "Suporte prioritário 24/7 com gerente de conta"
+      ]
+    }
+  ],
+  "subscriptionInvoices": []
+}

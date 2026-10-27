@@ -1,0 +1,8 @@
+{
+  "name": "CardapioPro SaaS",
+  "description": "Plataforma multi-tenant de cardápio digital, automação de pedidos WhatsApp, PDV, KDS, estoque e impressão de comandas para estabelecimentos de alimentação.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
